@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+#  TaskTrackerApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+TaskTrackerapp is a simple, elegant mobile app built with React Native and Expo that allows users to efficiently manage their daily tasks. Users can create, complete, filter, and delete tasks — all while tagging their locations on a map.
 
-## Get started
+---
 
-1. Install dependencies
+##  Features
 
-   ```bash
-   npm install
-   ```
+-  Create tasks with a title, description, and optional location
+-  View and list all tasks
+-  Delete tasks
+-  Mark tasks as completed/incomplete
+-  Filter tasks by All / Completed / Incomplete
+-  Sort tasks by date or title
+-  Assign and display a location using Google Maps
+-  View task details with location markers
+-  Smooth UI animations
+-  Display user’s current location
+-  Draw route to the task location (Bonus)
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+*Technologies Used*
 
-In the output, you'll find options to open the app in a
+- React Native (via Expo CLI)
+- TypeScript
+- React Navigation (Stack Navigation)
+- Context API (Global Task State Management)
+- UUID (Task ID Generation)
+- Fetch API (JSONPlaceholder Integration)
+- React Native Maps (Google Maps Integration)
+- Expo Location (User Location Permission)
+- React Native Reanimated (Animations)
+- Expo Modules (Vector Icons, Haptics, Constants)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+*Bonus Features Implemented*
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+-  Map Picker: Select location when creating a task
+-  Show task location with marker on detail screen
+-  Route Drawing: From user's current location to task
+-  Fetch tasks from JSONPlaceholder API
+-  Push new tasks to API (mock POST)
+-  Fade-in animation for task cards
+-  Press animation for buttons
+-  Smooth screen transitions between views
+-  Shows user’s current location on the map
+-  Filters (All / Completed / Incomplete)
+-  Sorting by date or title
